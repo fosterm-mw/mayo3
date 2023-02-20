@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mayo-demo"
+  description: "Infrastructure and applications for the Mayo A-Team."
+  annotations:
+    github.com/project-slug: fosterm-mw/mayo3
+spec:
+  type: project
+  lifecycle: experimental
+  owner: "user:guest"
